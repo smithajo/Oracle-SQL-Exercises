@@ -1,0 +1,15 @@
+Tight Integration with SQL
+SQL has become the standard database language because it is flexible, powerful, and easy to learn. 
+A few English-like statements such as SELECT, INSERT, UPDATE, and DELETE make it easy to manipulate the data stored in a relational database.
+
+PL/SQL is tightly integrated with SQL.With PL/SQL,you can use all SQL data manipulation,cursor control,transaction control statements,all SQL functions,operators and pseudocolumns.
+PL/SQL fully supports SQL data types.You need not convert between PL/SQL and SQL data types. 
+For example, if your PL/SQL program retrieves a value from a database column of the SQL type VARCHAR2, it can store that value in a PL/SQL variable of the type VARCHAR2.
+Special PL/SQL language features let you work with table columns and rows without specifying the data types, saving on maintenance work when the table definitions change.
+
+Running a SQL query and processing the result set is as easy in PL/SQL as opening a text file and processing each line in popular scripting languages.
+Using PL/SQL to access metadata about database objects and handle database error conditions, you can write utility programs for database administration that are reliable and produce readable output about the success of each operation.
+Many database features, such as triggers and object types, use PL/SQL. You can write the bodies of triggers and methods for object types in PL/SQL.
+
+PL/SQL supports both static and dynamic SQL. Static SQL is SQL whose full text is known at compilation time.
+Dynamic SQL is SQL whose full text is not known until run time. Dynamic SQL enables you to make your applications more flexible and versatile.
